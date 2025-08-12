@@ -1,5 +1,7 @@
 # to-be.Go <!-- omit in toc -->
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/synesissoftware/to-be.Go.svg)](https://pkg.go.dev/github.com/synesissoftware/to-be.Go)
+
 Simple Go library determining the truthyness of strings, that is whether they indicate *truey* or *falsy* values.
 
 

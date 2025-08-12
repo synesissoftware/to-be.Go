@@ -11,6 +11,7 @@ Simple Go library determining the truthyness of strings, that is whether they in
 ## Table of Contents <!-- omit in toc -->
 
 - [Introduction](#introduction)
+- [Terminology](#terminology)
 - [Installation](#installation)
 - [Components](#components)
 - [Examples](#examples)
@@ -21,6 +22,45 @@ Simple Go library determining the truthyness of strings, that is whether they in
 		- [Development/Testing Dependencies](#developmenttesting-dependencies)
 	- [Related projects](#related-projects)
 	- [License](#license)
+
+
+## Terminology
+
+The term "*truthy*" is an unhelpfully overloaded term in the programming world, insofar as it is used to refer to the notion of "truthyness" - whether something can be _deemed to be_ interpretable as truth - and also the true side of that interpretation. In this library, the former interpretation is used, leaving us with the following terms:
+
+* "*truthy*" - whether something can be can be _deemed to be_ interpretable as having truth;
+* "*falsey*" - whether an object can be _deemed to be_ interpretable as being false;
+* "*truey*" - whether an object can be _deemed to be_ interpretable as being true;
+
+For example, consider the following **Go** program:
+
+```Go
+package main
+
+import (
+	to_be "github.com/synesissoftware/to-be.Go"
+)
+
+s1 := "no"
+s2 := "True"
+s3 := "orange"
+
+// "no" is validly truthy, and is falsey
+to_be.StringIsFalsey(s1)  // true
+to_be.StringIsTruey(s1)   // false
+to_be.StringIsTruthy(s1)  // true
+
+// "True" is validly truthy, and is truey
+to_be.StringIsFalsey(s2)  // false
+to_be.StringIsTruey(s2)   // true
+to_be.StringIsTruthy(s2)  // true
+
+// "orange" is not validly truthy, and is neither falsey nor truey
+to_be.StringIsFalsey(s3)  // false
+to_be.StringIsTruey(s3)   // false
+to_be.StringIsTruthy(s3)  // false
+```
+
 
 ## Installation
 

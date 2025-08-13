@@ -1,6 +1,9 @@
 # to-be.Go <!-- omit in toc -->
 
+[![GitHub release](https://img.shields.io/github/v/release/synesissoftware/to-be.Go.svg)](https://github.com/synesissoftware/to-be.Go/releases/latest)
 [![Go Reference](https://pkg.go.dev/badge/github.com/synesissoftware/to-be.Go.svg)](https://pkg.go.dev/github.com/synesissoftware/to-be.Go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/synesissoftware/to-be.Go)](https://goreportcard.com/report/github.com/synesissoftware/to-be.Go)
+[![Last Commit](https://img.shields.io/github/last-commit/synesissoftware/to-be.Go)](https://github.com/synesissoftware/to-be.Go/commits/master)
 
 Simple Go library determining the truthyness of strings, that is whether they indicate *truey* or *falsy* values.
 

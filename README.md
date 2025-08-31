@@ -124,7 +124,7 @@ Defect reports, feature requests, and pull requests are welcome on https://githu
 
 * [**to-be**](https://github.com/synesissoftware/to-be) (**C**);
 * [**py2be**](https://github.com/synesissoftware/py2be) (**Python**);
-* [**to-be.Ruby**](https://github.com/synesissoftware/to-be.Ruby);
+* [**to_be.Ruby**](https://github.com/synesissoftware/to_be.Ruby);
 * [**to-be.Rust**](https://github.com/synesissoftware/to-be.Rust);
 
 

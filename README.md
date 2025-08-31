@@ -1,5 +1,6 @@
 # to-be.Go <!-- omit in toc -->
 
+![Language](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![GitHub release](https://img.shields.io/github/v/release/synesissoftware/to-be.Go.svg)](https://github.com/synesissoftware/to-be.Go/releases/latest)
 [![Last Commit](https://img.shields.io/github/last-commit/synesissoftware/to-be.Go)](https://github.com/synesissoftware/to-be.Go/commits/master)

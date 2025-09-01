@@ -1,0 +1,24 @@
+
+# directories (by name)
+
+/scratch/
+
+
+# directories (by pattern)
+
+
+# files (by name)
+
+.DS_Store
+
+
+# files (by pattern)
+
+*~
+*.a
+*.dylib
+*.lib
+*.o
+*.sw[pon]
+*.tmp
+*.zip

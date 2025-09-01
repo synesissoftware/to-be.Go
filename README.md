@@ -1,9 +1,12 @@
 # to-be.Go <!-- omit in toc -->
 
+![Language](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![GitHub release](https://img.shields.io/github/v/release/synesissoftware/to-be.Go.svg)](https://github.com/synesissoftware/to-be.Go/releases/latest)
-[![Go Reference](https://pkg.go.dev/badge/github.com/synesissoftware/to-be.Go.svg)](https://pkg.go.dev/github.com/synesissoftware/to-be.Go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/synesissoftware/to-be.Go)](https://goreportcard.com/report/github.com/synesissoftware/to-be.Go)
 [![Last Commit](https://img.shields.io/github/last-commit/synesissoftware/to-be.Go)](https://github.com/synesissoftware/to-be.Go/commits/master)
+[![Go](https://github.com/synesissoftware/to-be.Go/actions/workflows/go.yml/badge.svg)](https://github.com/synesissoftware/to-be.Go/actions/workflows/go.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/synesissoftware/to-be.Go)](https://goreportcard.com/report/github.com/synesissoftware/to-be.Go)
+[![Go Reference](https://pkg.go.dev/badge/github.com/synesissoftware/to-be.Go.svg)](https://pkg.go.dev/github.com/synesissoftware/to-be.Go)
 
 Simple Go library determining the truthyness of strings, that is whether they indicate *truey* or *falsy* values.
 
@@ -71,12 +74,26 @@ to_be.StringIsTruthy(s3)  // false
 
 ```Go
 
-import to-be "github.com/synesissoftware/to-be.Go"
+import to_be "github.com/synesissoftware/to-be.Go"
 ```
+
 
 ## Components
 
-TBC
+```Go
+// Indicates that the given string, when trimmed, is classified as "truthy"
+// and is deemed as "falsey".
+func StringIsFalsey(s string) bool
+
+// Indicates that the given string, when trimmed, is classified as "truthy"
+// and is deemed as "truey".
+func StringIsTruey(s string) bool
+
+// Indicates that the given string, when trimmed, is classified as "truthy"
+// and is deemed as "truey".
+func StringIsTruey(s string) bool
+```
+
 
 ## Examples
 
@@ -108,10 +125,14 @@ Defect reports, feature requests, and pull requests are welcome on https://githu
 
 * [**to-be**](https://github.com/synesissoftware/to-be) (**C**);
 * [**py2be**](https://github.com/synesissoftware/py2be) (**Python**);
-* [**to-be.Ruby**](https://github.com/synesissoftware/to-be.Ruby);
+* [**to_be.Ruby**](https://github.com/synesissoftware/to_be.Ruby);
 * [**to-be.Rust**](https://github.com/synesissoftware/to-be.Rust);
 
 
 ### License
 
 **to-be.Go** is released under the 3-clause BSD license. See [LICENSE](./LICENSE) for details.
+
+
+<!-- ########################### end of file ########################### -->
+

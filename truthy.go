@@ -45,6 +45,8 @@ var _TRUEY_LOWERCASE_STRINGS = [...]string{
 	"1",
 }
 
+// Indicates that the given string, when trimmed, is classified as "truthy"
+// and is deemed as "falsey".
 func StringIsFalsey(s string) bool {
 	if _, found := slices.BinarySearch(_FALSEY_PRECISE_STRINGS[:], s); found {
 		return true
@@ -59,6 +61,8 @@ func StringIsFalsey(s string) bool {
 	return false
 }
 
+// Indicates that the given string, when trimmed, is classified as "truthy"
+// and is deemed as "truey".
 func StringIsTruey(s string) bool {
 	if _, found := slices.BinarySearch(_TRUEY_PRECISE_STRINGS[:], s); found {
 		return true
@@ -73,6 +77,8 @@ func StringIsTruey(s string) bool {
 	return false
 }
 
+// Indicates that the given string, when trimmed, is classified as "truthy"
+// (and is deemed as either "falsey" or "truey").
 func StringIsTruthy(s string) bool {
 	if _, found := slices.BinarySearch(_TRUEY_PRECISE_STRINGS[:], s); found {
 		return true

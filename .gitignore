@@ -1,4 +1,3 @@
-
 # directories (by name)
 
 /scratch/
@@ -15,10 +14,18 @@
 # files (by pattern)
 
 *~
+*.[568vq]
 *.a
+*.dll
 *.dylib
+*.exe
 *.lib
 *.o
+*.out
+*.prof
+*.so
 *.sw[pon]
+*.test
 *.tmp
 *.zip
+

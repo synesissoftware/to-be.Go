@@ -1,3 +1,5 @@
+# Synesis Information Systems .gitignore for Go libraries
+
 
 # directories (by name)
 
@@ -15,10 +17,17 @@
 # files (by pattern)
 
 *~
+*.[568vq]
 *.a
+*.dll
 *.dylib
+*.exe
 *.lib
 *.o
+*.out
+*.prof
+*.so
 *.sw[pon]
+*.test
 *.tmp
 *.zip

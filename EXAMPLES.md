@@ -1,4 +1,4 @@
-# to-be.Go Examples
+# to-be.Go - Examples <!-- omit in toc -->
 
 | Name | Source & Description | Summary |
 | ---- | -------------------- | ------- |

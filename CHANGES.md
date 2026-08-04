@@ -1,4 +1,4 @@
-# **to-be.Go** Changes
+# to-be.Go - CHANGES <!-- omit in toc -->
 
 ## 0.2.0 - 1st September 2025
 

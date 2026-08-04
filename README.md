@@ -1,5 +1,7 @@
 # to-be.Go <!-- omit in toc -->
 
+Simple Go library determining the truthyness of strings, that is whether they indicate *truey* or *falsy* values.
+
 ![Language](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![GitHub release](https://img.shields.io/github/v/release/synesissoftware/to-be.Go.svg)](https://github.com/synesissoftware/to-be.Go/releases/latest)
@@ -7,8 +9,6 @@
 [![Go](https://github.com/synesissoftware/to-be.Go/actions/workflows/go.yml/badge.svg)](https://github.com/synesissoftware/to-be.Go/actions/workflows/go.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/synesissoftware/to-be.Go)](https://goreportcard.com/report/github.com/synesissoftware/to-be.Go)
 [![Go Reference](https://pkg.go.dev/badge/github.com/synesissoftware/to-be.Go.svg)](https://pkg.go.dev/github.com/synesissoftware/to-be.Go)
-
-Simple Go library determining the truthyness of strings, that is whether they indicate *truey* or *falsy* values.
 
 
 ## Introduction
@@ -135,4 +135,3 @@ Defect reports, feature requests, and pull requests are welcome on https://githu
 
 
 <!-- ########################### end of file ########################### -->
-

@@ -11,11 +11,6 @@ Simple Go library determining the truthyness of strings, that is whether they in
 [![Go Reference](https://pkg.go.dev/badge/github.com/synesissoftware/to-be.Go.svg)](https://pkg.go.dev/github.com/synesissoftware/to-be.Go)
 
 
-## Introduction
-
-**to-be** is a library providing facilities for determine whether the truthyness of strings. It implemented in several languages: **to-be.Go** is the **Go** implementation.
-
-
 ## Table of Contents <!-- omit in toc -->
 
 - [Introduction](#introduction)
@@ -30,6 +25,11 @@ Simple Go library determining the truthyness of strings, that is whether they in
 		- [Development/Testing Dependencies](#developmenttesting-dependencies)
 	- [Related projects](#related-projects)
 	- [License](#license)
+
+
+## Introduction
+
+**to-be** is a library providing facilities for determine whether the truthyness of strings. It implemented in several languages: **to-be.Go** is the **Go** implementation.
 
 
 ## Terminology

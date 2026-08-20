@@ -8,13 +8,13 @@ Displays the truthyness of some environment variables.
 
 ## Source
 
-See [examples/to_be.go](./examples/to_be.go).
+See [examples/to_be/main.go](./to_be/main.go).
 
 
 ## Execution
 
 ```bash
-go run ./examples/to_be.go
+go run ./examples/to_be
 ```
 
 

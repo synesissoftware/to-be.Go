@@ -1,8 +1,9 @@
 package to_be_test
 
 import (
-	"github.com/stretchr/testify/require"
 	. "github.com/synesissoftware/to-be.Go"
+
+	"github.com/stretchr/testify/require"
 
 	"testing"
 )

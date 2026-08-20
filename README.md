@@ -90,7 +90,10 @@ func StringIsTruey(s string) bool
 
 // Indicates that the given string, when trimmed, is classified as "truthy"
 // and is deemed as "truey".
-func StringIsTruey(s string) bool
+func StringIsTruthy(s string) bool
+
+func Version() uint64
+func VersionString() string
 ```
 
 

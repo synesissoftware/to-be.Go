@@ -3,7 +3,7 @@
 
 ## Summary
 
-Displays the truthyness of some environment variables.
+Displays the truthiness of some environment variables.
 
 
 ## Source

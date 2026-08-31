@@ -1,6 +1,6 @@
 # to-be.Go <!-- omit in toc -->
 
-Simple Go library determining the truthyness of strings, that is whether they indicate *truey* or *falsy* values.
+Simple Go library determining the truthiness of strings, that is whether they indicate *truey* or *falsey* values.
 
 ![Language](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
@@ -28,12 +28,12 @@ Simple Go library determining the truthyness of strings, that is whether they in
 
 ## Introduction
 
-**to-be** is a library providing facilities for determine whether the truthyness of strings. It implemented in several languages: **to-be.Go** is the **Go** implementation.
+**to-be** is a library providing facilities for determine whether the truthiness of strings. It implemented in several languages: **to-be.Go** is the **Go** implementation.
 
 
 ## Terminology
 
-The term "*truthy*" is an unhelpfully overloaded term in the programming world, insofar as it is used to refer to the notion of "truthyness" - whether something can be _deemed to be_ interpretable as truth - and also the true side of that interpretation. In this library, the former interpretation is used, leaving us with the following terms:
+The term "*truthy*" is an unhelpfully overloaded term in the programming world, insofar as it is used to refer to the notion of "truthiness" - whether something can be _deemed to be_ interpretable as truth - and also the true side of that interpretation. In this library, the former interpretation is used, leaving us with the following terms:
 
 * "*truthy*" - whether something can be can be _deemed to be_ interpretable as having truth;
 * "*falsey*" - whether an object can be _deemed to be_ interpretable as being false;
